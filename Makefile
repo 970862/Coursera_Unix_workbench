@@ -1,6 +1,5 @@
-all:README.md
+#!usr/bin/env bash
 
-README.md:
          echo " guessinggame.sh for Coursera/John Hopkins University's The Unix Workbench Course" > README.md
          echo -n "README.md created on :" >> README.md
          date >> README.md
